@@ -1,0 +1,1336 @@
+{
+  "parties": [
+    { "id": "likud", "name": "ליכוד", "color": "#1E40AF" },
+    { "id": "yesh_atid", "name": "יש עתיד", "color": "#3B82F6" },
+    { "id": "hatzioni_hadati", "name": "הציונות הדתית", "color": "#DC2626" },
+    { "id": "yahadut_hatora", "name": "יהדות התורה", "color": "#1F2937" },
+    { "id": "shas", "name": "ש\"ס", "color": "#7C3AED" },
+    { "id": "yisrael_beiteinu", "name": "ישראל ביתנו", "color": "#0891B2" },
+    { "id": "meretz_hadash", "name": "מרצ / חד\"ש", "color": "#10B981" },
+    { "id": "hamahaneh_hamamlahti", "name": "המחנה הממלכתי", "color": "#6366F1" },
+    { "id": "bennett_2026", "name": "בנט 2026", "color": "#F59E0B" },
+    { "id": "hademokratim", "name": "הדמוקרטים", "color": "#EC4899" }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "מה הדעה שלך על ביבי?",
+      "answers": [
+        {
+          "text": "ביבי המלך 👑",
+          "scores": { "likud": 10, "hatzioni_hadati": 8, "shas": 7, "yesh_atid": -10, "meretz_hadash": -10, "hademokratim": -10 }
+        },
+        {
+          "text": "תודה, הבא בבקשה",
+          "scores": { "likud": -10, "yesh_atid": 9, "hamahaneh_hamamlahti": 8, "hademokratim": 8, "meretz_hadash": 7 }
+        },
+        {
+          "text": "הוא בסדר, יש גם יש גם",
+          "scores": { "hamahaneh_hamamlahti": 5, "yisrael_beiteinu": 4, "bennett_2026": 3 }
+        },
+        {
+          "text": "מי זה ביבי?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "האם היה טבח ב-7 באוקטובר?",
+      "answers": [
+        {
+          "text": "כן, ברור",
+          "scores": { "likud": 10, "yesh_atid": 10, "hatzioni_hadati": 10, "hamahaneh_hamamlahti": 10, "bennett_2026": 10, "yisrael_beiteinu": 10, "shas": 10, "yahadut_hatora": 10 }
+        },
+        {
+          "text": "לא, זה תעמולה",
+          "scores": { "meretz_hadash": 5 }
+        },
+        {
+          "text": "צריך לחקור עוד",
+          "scores": { "hademokratim": 3 }
+        },
+        {
+          "text": "לא יודע/לא רוצה לענות",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "מה עדיף - ביטחון או שלום?",
+      "answers": [
+        {
+          "text": "ביטחון תמיד קודם! 💪",
+          "scores": { "likud": 9, "hatzioni_hadati": 10, "yisrael_beiteinu": 9, "bennett_2026": 9 }
+        },
+        {
+          "text": "שלום זה הדבר החשוב ביותר ☮️",
+          "scores": { "meretz_hadash": 10, "hademokratim": 9 }
+        },
+        {
+          "text": "אפשר את שניהם",
+          "scores": { "yesh_atid": 7, "hamahaneh_hamamlahti": 7 }
+        },
+        {
+          "text": "תלוי במצב",
+          "scores": { "bennett_2026": 4 }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "נתניהו צריך להתפטר?",
+      "answers": [
+        {
+          "text": "אין מצב, הוא הכי טוב שיש",
+          "scores": { "likud": 10, "hatzioni_hadati": 8, "shas": 7 }
+        },
+        {
+          "text": "כן! אתמול!",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10, "hamahaneh_hamamlahti": 9 }
+        },
+        {
+          "text": "בסוף הקדנציה",
+          "scores": { "bennett_2026": 5, "yisrael_beiteinu": 4 }
+        },
+        {
+          "text": "מי אני שאחליט",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "מה אתה חושב על הרפורמה המשפטית?",
+      "answers": [
+        {
+          "text": "סוף סוף! דמוקרטיה אמיתית",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 8, "yahadut_hatora": 8 }
+        },
+        {
+          "text": "הרס של הדמוקרטיה",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "צריך פשרה",
+          "scores": { "hamahaneh_hamamlahti": 7, "bennett_2026": 6 }
+        },
+        {
+          "text": "לא עקבתי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "איך אתה מרגיש לגבי גנץ?",
+      "answers": [
+        {
+          "text": "מנהיג אמיתי 🎖️",
+          "scores": { "hamahaneh_hamamlahti": 10, "yesh_atid": 6, "hademokratim": 5 }
+        },
+        {
+          "text": "חלש ומתלבט",
+          "scores": { "likud": 8, "hatzioni_hadati": 7 }
+        },
+        {
+          "text": "אופציה סבירה",
+          "scores": { "yisrael_beiteinu": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "מי זה גנץ?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "חרדים בצבא - כן או לא?",
+      "answers": [
+        {
+          "text": "כולם צריכים לשרת!",
+          "scores": { "yesh_atid": 10, "yisrael_beiteinu": 10, "meretz_hadash": 8, "hademokratim": 8, "bennett_2026": 9 }
+        },
+        {
+          "text": "תורתם אומנותם",
+          "scores": { "yahadut_hatora": 10, "shas": 9 }
+        },
+        {
+          "text": "בואו נמצא פתרון",
+          "scores": { "hamahaneh_hamamlahti": 6, "likud": 5 }
+        },
+        {
+          "text": "זה מסובך מדי בשבילי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "איך אתה מגדיר את עצמך?",
+      "answers": [
+        {
+          "text": "ביביסט עד הסוף",
+          "scores": { "likud": 10, "hatzioni_hadati": 7, "shas": 6 }
+        },
+        {
+          "text": "שמאלני גאה",
+          "scores": { "meretz_hadash": 10, "hademokratim": 9 }
+        },
+        {
+          "text": "ממרכז עם נטיות",
+          "scores": { "yesh_atid": 8, "hamahaneh_hamamlahti": 7, "bennett_2026": 6 }
+        },
+        {
+          "text": "פשוט ישראלי",
+          "scores": { "yisrael_beiteinu": 5 }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "מדינה פלסטינית?",
+      "answers": [
+        {
+          "text": "אף פעם לא יקרה",
+          "scores": { "likud": 9, "hatzioni_hadati": 10, "yisrael_beiteinu": 8 }
+        },
+        {
+          "text": "הפתרון היחיד",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "אולי בעתיד הרחוק",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "עזבו אותי בשקט",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "האם בן גביר עושה עבודה טובה?",
+      "answers": [
+        {
+          "text": "סוף סוף מישהו עם ביצים! 🔥",
+          "scores": { "hatzioni_hadati": 10, "likud": 7 }
+        },
+        {
+          "text": "הוא הרס את המשטרה",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 9 }
+        },
+        {
+          "text": "יש לו כמה נקודות",
+          "scores": { "yisrael_beiteinu": 4 }
+        },
+        {
+          "text": "מי זה בן גביר?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "מה אתה חושב על יוקר המחיה?",
+      "answers": [
+        {
+          "text": "הממשלה צריכה להתערב עכשיו!",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9, "yesh_atid": 7 }
+        },
+        {
+          "text": "השוק החופשי יסדר את זה",
+          "scores": { "likud": 8, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "צריך איזון חכם",
+          "scores": { "bennett_2026": 7, "hamahaneh_hamamlahti": 6 }
+        },
+        {
+          "text": "אין לי מושג בכלכלה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "הפרטת שירותים ציבוריים?",
+      "answers": [
+        {
+          "text": "הכל צריך להיות פרטי 💰",
+          "scores": { "likud": 8, "yisrael_beiteinu": 8 }
+        },
+        {
+          "text": "הכל צריך להיות ממלכתי",
+          "scores": { "meretz_hadash": 10, "hademokratim": 9 }
+        },
+        {
+          "text": "תלוי מה",
+          "scores": { "yesh_atid": 6, "bennett_2026": 6, "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "זה משעמם, הבא",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "מה אתה חושב על סמוטריץ'?",
+      "answers": [
+        {
+          "text": "מנהיג אמיתי להתיישבות",
+          "scores": { "hatzioni_hadati": 10, "likud": 6 }
+        },
+        {
+          "text": "קיצוני מסוכן",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 8 }
+        },
+        {
+          "text": "יש לו כמה נקודות טובות",
+          "scores": { "bennett_2026": 4 }
+        },
+        {
+          "text": "מי זה סמוטריץ'?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "נישואים אזרחיים - בעד או נגד?",
+      "answers": [
+        {
+          "text": "בעד! חירות אישית",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 10 }
+        },
+        {
+          "text": "נגד, רק דרך הרבנות",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 8 }
+        },
+        {
+          "text": "למה לא שניהם",
+          "scores": { "hamahaneh_hamamlahti": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "לא מעניין אותי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "תחבורה ציבורית בשבת?",
+      "answers": [
+        {
+          "text": "בשביל מה יש שבת?!",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 9 }
+        },
+        {
+          "text": "ברור שכן, זה 2025",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 9 }
+        },
+        {
+          "text": "רק בערים מסוימות",
+          "scores": { "hamahaneh_hamamlahti": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "אין לי עמדה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "מה אתה חושב על יאיר לפיד?",
+      "answers": [
+        {
+          "text": "סוף סוף מישהו נורמלי",
+          "scores": { "yesh_atid": 10, "hademokratim": 6, "meretz_hadash": 5 }
+        },
+        {
+          "text": "אליטיסט מנותק",
+          "scores": { "likud": 9, "hatzioni_hadati": 8, "shas": 7 }
+        },
+        {
+          "text": "יכול להיות גרוע יותר",
+          "scores": { "hamahaneh_hamamlahti": 5, "yisrael_beiteinu": 4 }
+        },
+        {
+          "text": "מי זה לפיד?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "מיסוי עשירים - כן או לא?",
+      "answers": [
+        {
+          "text": "תעשירו אותם עוד יותר! 🤑",
+          "scores": { "likud": 8, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "בואו נחלק קצת",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 7 }
+        },
+        {
+          "text": "המיסוי מספיק גבוה",
+          "scores": { "bennett_2026": 6, "hatzioni_hadati": 5 }
+        },
+        {
+          "text": "לא הבנתי את השאלה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "איך אתה מרגיש לגבי ליברמן?",
+      "answers": [
+        {
+          "text": "הגיוני וחילוני ✓",
+          "scores": { "yisrael_beiteinu": 10, "yesh_atid": 5 }
+        },
+        {
+          "text": "בוגד מקצועי",
+          "scores": { "likud": 9, "hatzioni_hadati": 8 }
+        },
+        {
+          "text": "תלוי ביום",
+          "scores": { "hamahaneh_hamamlahti": 4, "bennett_2026": 3 }
+        },
+        {
+          "text": "שכחתי שהוא קיים",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "חוק הלאום - בעד או נגד?",
+      "answers": [
+        {
+          "text": "סוף סוף הגדרנו מי אנחנו",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "חוק גזעני",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "היה צריך לנסח אחרת",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "מה זה חוק הלאום?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "מה אתה חושב על אהוד ברק?",
+      "answers": [
+        {
+          "text": "מוח צבאי מבריק",
+          "scores": { "meretz_hadash": 7, "hademokratim": 7 }
+        },
+        {
+          "text": "שמאלן מושבע",
+          "scores": { "likud": 8, "hatzioni_hadati": 8 }
+        },
+        {
+          "text": "היה טוב פעם",
+          "scores": { "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "רלוונטי כמו קלטת וידאו",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "המלחמה בעזה - מה הלאה?",
+      "answers": [
+        {
+          "text": "להמשיך עד ניצחון מוחלץ",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 8 }
+        },
+        {
+          "text": "להפסיק עכשיו, מספיק",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "לנסות הסכם חטופים",
+          "scores": { "yesh_atid": 8, "hamahaneh_hamamlahti": 8, "bennett_2026": 7 }
+        },
+        {
+          "text": "תנו לי לחיות בשקט",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "איראן - מה עושים?",
+      "answers": [
+        {
+          "text": "להפציץ אותם אתמול 💣",
+          "scores": { "hatzioni_hadati": 10, "likud": 8, "yisrael_beiteinu": 8 }
+        },
+        {
+          "text": "לנסות דיפלומטיה",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9 }
+        },
+        {
+          "text": "להמתין ולראות",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "איראן? איפה זה?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "מה אתה חושב על ערבי ישראל?",
+      "answers": [
+        {
+          "text": "אזרחים שווי זכויות",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 7 }
+        },
+        {
+          "text": "חמישית טור",
+          "scores": { "hatzioni_hadati": 9, "likud": 6 }
+        },
+        {
+          "text": "זה מורכב",
+          "scores": { "hamahaneh_hamamlahti": 5, "bennett_2026": 4, "yisrael_beiteinu": 4 }
+        },
+        {
+          "text": "לא רוצה להיכנס לזה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "צריך לפנות התנחלויות?",
+      "answers": [
+        {
+          "text": "אף פעם! זו ארצנו",
+          "scores": { "likud": 9, "hatzioni_hadati": 10, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "כן, למען השלום",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "רק כחלק מהסכם",
+          "scores": { "yesh_atid": 7, "hamahaneh_hamamlahti": 7, "bennett_2026": 5 }
+        },
+        {
+          "text": "תעזבו אותי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "האם צה\"ל מוסרי מספיק?",
+      "answers": [
+        {
+          "text": "הצבא המוסרי בעולם! 🎖️",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 9, "bennett_2026": 9 }
+        },
+        {
+          "text": "צריך שיפורים רציניים",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9 }
+        },
+        {
+          "text": "בסדר גמור",
+          "scores": { "yesh_atid": 7, "hamahaneh_hamamlahti": 7 }
+        },
+        {
+          "text": "אין לי מושג",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "יחסים עם ארה\"ב?",
+      "answers": [
+        {
+          "text": "צריך להיות יותר עצמאיים",
+          "scores": { "hatzioni_hadati": 8, "likud": 7 }
+        },
+        {
+          "text": "הם בני הברית שלנו",
+          "scores": { "yesh_atid": 9, "hamahaneh_hamamlahti": 9, "hademokratim": 8 }
+        },
+        {
+          "text": "תלוי מי הנשיא",
+          "scores": { "yisrael_beiteinu": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "פוליטיקה חוץ? פאס",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "האם ישראל אפרטהייד?",
+      "answers": [
+        {
+          "text": "איזה שטויות!",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 10, "yesh_atid": 8 }
+        },
+        {
+          "text": "יש אלמנטים של זה",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9 }
+        },
+        {
+          "text": "זה יותר מורכב",
+          "scores": { "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "מה זה אפרטהייד?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "מה עושים עם חמאס?",
+      "answers": [
+        {
+          "text": "למחוק מהמפה",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 9 }
+        },
+        {
+          "text": "לנסות לשכנע",
+          "scores": { "meretz_hadash": 7, "hademokratim": 7 }
+        },
+        {
+          "text": "לבודד אותם",
+          "scores": { "yesh_atid": 8, "hamahaneh_hamamlahti": 8, "bennett_2026": 7 }
+        },
+        {
+          "text": "לא יודע",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "האם ישראל יכולה לסמוך על האו\"ם?",
+      "answers": [
+        {
+          "text": "הם שונאי ישראל",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "yisrael_beiteinu": 9 }
+        },
+        {
+          "text": "ארגון חשוב",
+          "scores": { "meretz_hadash": 8, "hademokratim": 8 }
+        },
+        {
+          "text": "תלוי באיזה נושא",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "מה זה האו\"ם?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "הסכם אברהם - טוב או רע?",
+      "answers": [
+        {
+          "text": "פריצת דרך היסטורית! 🕊️",
+          "scores": { "likud": 10, "hatzioni_hadati": 8, "yisrael_beiteinu": 9, "yesh_atid": 9, "bennett_2026": 9 }
+        },
+        {
+          "text": "נורמליזציה מוקדמת מדי",
+          "scores": { "meretz_hadash": 5, "hademokratim": 5 }
+        },
+        {
+          "text": "צעד בכיוון הנכון",
+          "scores": { "hamahaneh_hamamlahti": 7 }
+        },
+        {
+          "text": "מה זה הסכם אברהם?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "הכותל המערבי - מי צריך לנהל?",
+      "answers": [
+        {
+          "text": "הרבנות הראשית",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 9, "likud": 6 }
+        },
+        {
+          "text": "כולם ביחד",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 8 }
+        },
+        {
+          "text": "המדינה",
+          "scores": { "yisrael_beiteinu": 8, "bennett_2026": 6 }
+        },
+        {
+          "text": "מי שרוצה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "פיצול יום הלימודים?",
+      "answers": [
+        {
+          "text": "חינוך אחיד לכולם!",
+          "scores": { "yesh_atid": 10, "yisrael_beiteinu": 10, "meretz_hadash": 9, "hademokratim": 9 }
+        },
+        {
+          "text": "תורה וחינוך ביחד",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 8 }
+        },
+        {
+          "text": "לכל אחד מה שמתאים לו",
+          "scores": { "hamahaneh_hamamlahti": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "מה זה פיצול יום?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "מה אתה חושב על איילת שקד?",
+      "answers": [
+        {
+          "text": "חזקה ועקרונית",
+          "scores": { "likud": 7, "hatzioni_hadati": 8, "bennett_2026": 7 }
+        },
+        {
+          "text": "ימנית קיצונית",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9, "yesh_atid": 6 }
+        },
+        {
+          "text": "לא הכרתי מספיק",
+          "scores": {}
+        },
+        {
+          "text": "מי זו איילת שקד?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "נשים בצבא קרבי?",
+      "answers": [
+        {
+          "text": "בוודאי! שוויון מלא",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 9 }
+        },
+        {
+          "text": "לא מתאים",
+          "scores": { "yahadut_hatora": 9, "shas": 9, "hatzioni_hadati": 7 }
+        },
+        {
+          "text": "מי שרוצה",
+          "scores": { "hamahaneh_hamamlahti": 7, "bennett_2026": 6, "likud": 6 }
+        },
+        {
+          "text": "אין לי דעה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "האם יש אפליה נגד מזרחים?",
+      "answers": [
+        {
+          "text": "ברור שכן!",
+          "scores": { "shas": 10, "meretz_hadash": 7, "hademokratim": 7 }
+        },
+        {
+          "text": "היה פעם, לא היום",
+          "scores": { "likud": 7, "yesh_atid": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "זה מורכב",
+          "scores": { "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "מי בכלל מזרחי מי אשכנזי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "קנאביס - חוקי או לא?",
+      "answers": [
+        {
+          "text": "תעשו לגליזציה כבר! 🌿",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "סם זה סם",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 9 }
+        },
+        {
+          "text": "רק לרפואי",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5, "likud": 5 }
+        },
+        {
+          "text": "לא מעניין אותי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "מה אתה חושב על מיכל וולדיגר?",
+      "answers": [
+        {
+          "text": "קול של הגיון",
+          "scores": { "hademokratim": 8, "yesh_atid": 6 }
+        },
+        {
+          "text": "פשרנית חלשה",
+          "scores": { "likud": 6, "hatzioni_hadati": 5 }
+        },
+        {
+          "text": "לא מכיר מספיק",
+          "scores": {}
+        },
+        {
+          "text": "מי זו מיכל?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "דירות ביוקר - מה הפתרון?",
+      "answers": [
+        {
+          "text": "שוק חופשי יסדר",
+          "scores": { "likud": 8, "yisrael_beiteinu": 7 }
+        },
+        {
+          "text": "המדינה צריכה לבנות",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9, "yesh_atid": 7 }
+        },
+        {
+          "text": "מסים על דירות ריקות",
+          "scores": { "bennett_2026": 7, "hamahaneh_hamamlahti": 6 }
+        },
+        {
+          "text": "אין פתרון",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "נישואי הומואים - בעד או נגד?",
+      "answers": [
+        {
+          "text": "אהבה זו אהבה 🏳️‍🌈",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 8 }
+        },
+        {
+          "text": "נגד התורה",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "כל אחד מה שהוא רוצה",
+          "scores": { "yisrael_beiteinu": 7, "hamahaneh_hamamlahti": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "לא רוצה להגיב",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "האם ישראל חילונית או יהודית?",
+      "answers": [
+        {
+          "text": "חילונית ודמוקרטית",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 10 }
+        },
+        {
+          "text": "יהודית לפני הכל",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "שניהם ביחד",
+          "scores": { "likud": 7, "yesh_atid": 7, "hamahaneh_hamamlahti": 6, "bennett_2026": 6 }
+        },
+        {
+          "text": "זה ממש מבלבל אותי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "מה אתה חושב על השופטת חיות?",
+      "answers": [
+        {
+          "text": "שומרת על הדמוקרטיה",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "אקטיביסטית פוליטית",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 8 }
+        },
+        {
+          "text": "עושה את עבודתה",
+          "scores": { "hamahaneh_hamamlahti": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "מי זו חיות?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "רכבת קלה בכל עיר?",
+      "answers": [
+        {
+          "text": "בוודאי! תחבורה ציבורית! 🚊",
+          "scores": { "meretz_hadash": 9, "hademokratim": 9, "yesh_atid": 8 }
+        },
+        {
+          "text": "בזבוז כסף",
+          "scores": { "likud": 6, "hatzioni_hadati": 5 }
+        },
+        {
+          "text": "תלוי בעיר",
+          "scores": { "hamahaneh_hamamlahti": 6, "bennett_2026": 5, "yisrael_beiteinu": 5 }
+        },
+        {
+          "text": "לא אכפת לי",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "האם אתה סומך על התקשורת הישראלית?",
+      "answers": [
+        {
+          "text": "בכלל לא!",
+          "scores": { "likud": 9, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "בחלקה",
+          "scores": { "yesh_atid": 7, "hamahaneh_hamamlahti": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "כן, יחסית",
+          "scores": { "meretz_hadash": 7, "hademokratim": 7 }
+        },
+        {
+          "text": "אני לא צורך חדשות",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "מה אתה חושב על ניר ברקת?",
+      "answers": [
+        {
+          "text": "עשה עבודה מדהימה",
+          "scores": { "likud": 9, "hatzioni_hadati": 6 }
+        },
+        {
+          "text": "ימני קיצוני",
+          "scores": { "meretz_hadash": 8, "hademokratim": 8 }
+        },
+        {
+          "text": "מנהל טוב",
+          "scores": { "yesh_atid": 5, "hamahaneh_hamamlahti": 4 }
+        },
+        {
+          "text": "מי זה ניר ברקת?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "האם חברות הייטק משלמות מספיק מיסים?",
+      "answers": [
+        {
+          "text": "לא! צריך להעלות",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 6 }
+        },
+        {
+          "text": "הם המנוע הכלכלי",
+          "scores": { "likud": 8, "yisrael_beiteinu": 8, "bennett_2026": 7 }
+        },
+        {
+          "text": "צריך איזון",
+          "scores": { "hamahaneh_hamamlahti": 6 }
+        },
+        {
+          "text": "מה זה מיסים",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "שירות לאומי לכולם?",
+      "answers": [
+        {
+          "text": "כן! שוויון בנטל",
+          "scores": { "yesh_atid": 10, "yisrael_beiteinu": 10, "meretz_hadash": 8, "hademokratim": 8 }
+        },
+        {
+          "text": "לא, זה כפייה",
+          "scores": { "yahadut_hatora": 10, "shas": 9 }
+        },
+        {
+          "text": "רק למי שלא מתגייס",
+          "scores": { "hamahaneh_hamamlahti": 7, "bennett_2026": 6, "likud": 5 }
+        },
+        {
+          "text": "תנו לי לחיות",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "מה אתה חושב על מרב מיכאלי?",
+      "answers": [
+        {
+          "text": "מנהיגת העתיד",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "חלשה מדי",
+          "scores": { "likud": 7, "hatzioni_hadati": 6 }
+        },
+        {
+          "text": "בסדר",
+          "scores": { "yesh_atid": 5 }
+        },
+        {
+          "text": "מי זו מרב?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "האם יש קשר בין דת ופוליטיקה?",
+      "answers": [
+        {
+          "text": "בוודאי! זה הבסיס",
+          "scores": { "yahadut_hatora": 10, "shas": 10, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "צריך להפריד",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yisrael_beiteinu": 10 }
+        },
+        {
+          "text": "קצת יש",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5, "likud": 5 }
+        },
+        {
+          "text": "מה הקשר?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "מחאת 2023 - בעד או נגד?",
+      "answers": [
+        {
+          "text": "הצילה את הדמוקרטיה! ✊",
+          "scores": { "yesh_atid": 10, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "הרסה את המדינה",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 8 }
+        },
+        {
+          "text": "זכות לגיטימית",
+          "scores": { "hamahaneh_hamamlahti": 6, "yisrael_beiteinu": 5 }
+        },
+        {
+          "text": "מה היה שם בכלל?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "במה הכי חשוב שהמדינה תשקיע?",
+      "answers": [
+        {
+          "text": "ביטחון וצבא",
+          "scores": { "likud": 9, "hatzioni_hadati": 10, "yisrael_beiteinu": 8 }
+        },
+        {
+          "text": "חינוך ובריאות",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10, "yesh_atid": 9 }
+        },
+        {
+          "text": "תשתיות ודיור",
+          "scores": { "bennett_2026": 8, "hamahaneh_hamamlahti": 7 }
+        },
+        {
+          "text": "בכלכלה ועסקים",
+          "scores": { "yisrael_beiteinu": 6 }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "מאיפה אתה מקבל את החדשות שלך?",
+      "answers": [
+        {
+          "text": "ערוץ 14 / ימין חדשותי",
+          "scores": { "likud": 9, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "ערוץ 12 / 13 / כאן",
+          "scores": { "yesh_atid": 8, "hamahaneh_hamamlahti": 7, "hademokratim": 7 }
+        },
+        {
+          "text": "טלגרם וקבוצות וואטסאפ",
+          "scores": { "hatzioni_hadati": 7, "likud": 6 }
+        },
+        {
+          "text": "אני לא צורך חדשות",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "האם אתה רואה ערוץ 14 (לשעבר ערוץ הכנסת)?",
+      "answers": [
+        {
+          "text": "זו התקשורת האמיתית! 📺",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 7 }
+        },
+        {
+          "text": "תעמולה ימנית",
+          "scores": { "yesh_atid": 9, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "לפעמים, לראות גם צד אחר",
+          "scores": { "hamahaneh_hamamlahti": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "מה זה ערוץ 14?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "מה אתה חושב על \"פטריוטים\" בטלגרם?",
+      "answers": [
+        {
+          "text": "מקור מידע אמין",
+          "scores": { "likud": 9, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "תעמולה וחדשות מזויפות",
+          "scores": { "yesh_atid": 9, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "צריך לקחת בערבון מוגבל",
+          "scores": { "hamahaneh_hamamlahti": 6, "bennett_2026": 5 }
+        },
+        {
+          "text": "מה זה פטריוטים?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "ערוץ 12 - אמין או לא?",
+      "answers": [
+        {
+          "text": "תקשורת מקצועית",
+          "scores": { "yesh_atid": 9, "hamahaneh_hamamlahti": 8, "hademokratim": 7, "meretz_hadash": 6 }
+        },
+        {
+          "text": "שמאל שונאי ביבי",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 8 }
+        },
+        {
+          "text": "בסדר בערך",
+          "scores": { "bennett_2026": 5, "yisrael_beiteinu": 4 }
+        },
+        {
+          "text": "לא צופה בטלוויזיה",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "טלגרם או פייסבוק לחדשות?",
+      "answers": [
+        {
+          "text": "טלגרם - פחות צנזורה! 📱",
+          "scores": { "likud": 8, "hatzioni_hadati": 9 }
+        },
+        {
+          "text": "פייסבוק יותר מאוזן",
+          "scores": { "yesh_atid": 7, "hamahaneh_hamamlahti": 6 }
+        },
+        {
+          "text": "שניהם זבל",
+          "scores": { "meretz_hadash": 6, "hademokratim": 6 }
+        },
+        {
+          "text": "אני בווטסאפ",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "האם אתה בקבוצות פוליטיות בווטסאפ?",
+      "answers": [
+        {
+          "text": "כן, ושם האמת!",
+          "scores": { "likud": 8, "hatzioni_hadati": 9 }
+        },
+        {
+          "text": "לא, מספיק לי בחיים",
+          "scores": { "meretz_hadash": 6, "hademokratim": 6, "yesh_atid": 5 }
+        },
+        {
+          "text": "יש לי אבל לא פעיל",
+          "scores": { "hamahaneh_hamamlahti": 4 }
+        },
+        {
+          "text": "מה זה קבוצות פוליטיות?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "מה אתה חושב על דנה ויס?",
+      "answers": [
+        {
+          "text": "עיתונאית אמיצה",
+          "scores": { "likud": 9, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "ביביסטית מושבעת",
+          "scores": { "yesh_atid": 9, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "עושה את העבודה שלה",
+          "scores": { "hamahaneh_hamamlahti": 4 }
+        },
+        {
+          "text": "מי זו דנה ויס?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "האם אתה סומך על הארץ?",
+      "answers": [
+        {
+          "text": "עיתון איכותי",
+          "scores": { "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "שמאלני מובהק",
+          "scores": { "likud": 10, "hatzioni_hadati": 10, "shas": 8 }
+        },
+        {
+          "text": "קוראים כדי להבין הכל",
+          "scores": { "yesh_atid": 6, "hamahaneh_hamamlahti": 5 }
+        },
+        {
+          "text": "לא קורא עיתונים",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "ברוך ברזל - מה אתה חושב?",
+      "answers": [
+        {
+          "text": "עיתונאי חוקר אמיתי",
+          "scores": { "likud": 9, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "ימני קיצוני",
+          "scores": { "yesh_atid": 8, "meretz_hadash": 10, "hademokratim": 10 }
+        },
+        {
+          "text": "טוב בחקירות",
+          "scores": { "hamahaneh_hamamlahti": 5, "bennett_2026": 4 }
+        },
+        {
+          "text": "מי זה ברוך ברזל?",
+          "scores": {}
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "איפה הכי אמינים?",
+      "answers": [
+        {
+          "text": "בטלגרם יש את האמת",
+          "scores": { "likud": 8, "hatzioni_hadati": 10 }
+        },
+        {
+          "text": "בערוצי החדשות הרגילים",
+          "scores": { "yesh_atid": 9, "hamahaneh_hamamlahti": 8, "hademokratim": 7 }
+        },
+        {
+          "text": "אף אחד לא אמין",
+          "scores": { "meretz_hadash": 6, "yisrael_beiteinu": 5 }
+        },
+        {
+          "text": "אני מאמין רק לעצמי",
+          "scores": {}
+        }
+      ]
+    }
+  ]
+}
