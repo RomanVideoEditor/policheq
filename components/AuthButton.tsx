@@ -22,7 +22,7 @@ export default function AuthButton() {
       await signInWithPopup(auth, googleProvider);
     } catch (error) {
       console.error('Error signing in:', error);
-      alert('שגיאה בהתחברות. נסה שוב.');
+      alert('שגיאה: ' + error.message);
     }
   };
 
