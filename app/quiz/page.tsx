@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import questionsData from '@/questions-data.json';
 
@@ -15,13 +15,7 @@ interface Question {
   answers: Answer[];
 }
 
-interface Party {
-  id: string;
-  name: string;
-  color: string;
-}
-
-export default function Quiz() {
+function QuizContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const questionCount = parseInt(searchParams.get('count') || '10');
@@ -33,7 +27,6 @@ export default function Quiz() {
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
-    // בוחר שאלות רנדומליות
     const allQuestions = questionsData.questions as Question[];
     const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
     setSelectedQuestions(shuffled.slice(0, questionCount));
@@ -49,7 +42,6 @@ export default function Quiz() {
 
     setIsAnimating(true);
 
-    // מעדכן ניקוד
     const answer = selectedQuestions[currentQuestionIndex].answers[selectedAnswer];
     const newScores = { ...userScores };
     
@@ -59,14 +51,12 @@ export default function Quiz() {
 
     setUserScores(newScores);
 
-    // עובר לשאלה הבאה או לתוצאות
     setTimeout(() => {
       if (currentQuestionIndex < selectedQuestions.length - 1) {
         setCurrentQuestionIndex(currentQuestionIndex + 1);
         setSelectedAnswer(null);
         setIsAnimating(false);
       } else {
-        // סיימנו - עובר לתוצאות
         const scoresParam = encodeURIComponent(JSON.stringify(newScores));
         router.push(`/results?scores=${scoresParam}`);
       }
@@ -90,7 +80,6 @@ export default function Quiz() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="max-w-3xl w-full">
-        {/* פס התקדמות */}
         <div className="mb-8">
           <div className="flex justify-between items-center mb-3">
             <span className="text-sm font-semibold text-blue-600">
@@ -108,7 +97,6 @@ export default function Quiz() {
           </div>
         </div>
 
-        {/* כרטיס השאלה */}
         <div className="card animate-fade-in-up mb-6">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center leading-relaxed">
             {currentQuestion.question}
@@ -137,7 +125,6 @@ export default function Quiz() {
           </div>
         </div>
 
-        {/* כפתור המשך */}
         <div className="flex justify-center">
           <button
             onClick={handleNext}
@@ -152,7 +139,6 @@ export default function Quiz() {
           </button>
         </div>
 
-        {/* כפתור חזרה */}
         <div className="text-center mt-6">
           <button
             onClick={() => router.push('/')}
@@ -163,5 +149,20 @@ export default function Quiz() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function Quiz() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-6xl mb-4 animate-pulse">🗳️</div>
+          <p className="text-2xl font-bold text-blue-600">טוען...</p>
+        </div>
+      </div>
+    }>
+      <QuizContent />
+    </Suspense>
   );
 }
